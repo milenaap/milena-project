@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+      margin: 0;
+      padding: 0;
+    box-sizing: inherit;
+  }
+
+.primer-div {
+    background-color: #ffffff;
+    margin-top: 0;
+    height: 200px;
+    font-family:sans-serif;
+}
+.primer-div .primer-titulo{
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 20px;
+    font: bold;
+    
+}
+
+.primer-div .segundo-titulo{
+    font-size: 3rem;
+    text-align: center;
+    color: darkgreen;
+        
+}
+
+.segundo-div{
+    background-color: #ffffff;
+    margin-top: 0;
+    height: 300px;
+    font-family:sans-serif;
+    text-align: center;
+    
+}
+
+
+.segundo-div .guia {
+    background-color: darkgreen;
+    padding: 10px 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: .5rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.footer{
+    background-color: #ffffff;
+    text-align: left;
+    padding: 80px;
+    margin-left: 120px;
+    color: darkgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+}
+.footer .editorial{
+    text-align: right;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
